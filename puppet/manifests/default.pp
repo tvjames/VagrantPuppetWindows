@@ -57,16 +57,6 @@ software::install { "Software_Package_7ZipMSI" :
   install_options => [ '/quiet' ],
 }
 ->
-/*
-software::install { "Software_Package_WindowsImagingComponent" :
-  name            => "wic_${architecture}_enu.exe",
-  source          => "puppet:///local/wic_${architecture}_enu.exe",
-  guid_x86        => "Microsoft .NET Framework 4 Extended",
-  guid_x64        => "Microsoft .NET Framework 4 Extended",
-  install_options => [ '/quiet', '/norestart' ],
-}
-->
-*/
 software::install { "Software_Package_DotNet40Redist" :
   name            => "dotNetFx40_Full_x86_x64.exe",
   source          => "puppet:///local/dotNetFx40_Full_x86_x64.exe",
