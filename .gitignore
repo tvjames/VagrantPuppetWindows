@@ -1,0 +1,10 @@
+windows-server-2008-r2-eval.box
+puppet/files/7z920-x64.msi
+puppet/files/7z920-x86.msi
+puppet/files/dotNetFx40_Full_x86_x64.exe
+puppet/files/jre-7u25-windows-x64.exe
+puppet/files/jre-7u25-windows-x86.exe
+puppet/files/scite-3.3.4x64.msi
+puppet/files/scite-3.3.4x86.msi
+puppet/files/wic_x64_enu.exe
+puppet/files/wic_x86_enu.exe
